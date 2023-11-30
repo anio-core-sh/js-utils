@@ -1,0 +1,14 @@
+{
+  "name": "@anio-core-sh/utils",
+  "version": "0.0.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha __tests__",
+    "prepare": "anio_core_libgen src"
+  },
+  "main": "./src/_index.mjs",
+  "devDependencies": {
+    "@anio-core-sh/libgen": "^0.0.1",
+    "mocha": "^10.2.0"
+  }
+}
