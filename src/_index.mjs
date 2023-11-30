@@ -14,10 +14,10 @@ export const replaceString = replaceString_impl;
 export const unsafeRandomIdentifier = unsafeRandomIdentifier_impl;
 
 export default {
-   arrayify,
-   escapeshellarg,
-   isObject,
-   isString,
-   replaceString,
-   unsafeRandomIdentifier
+    arrayify,
+    escapeshellarg,
+    isObject,
+    isString,
+    replaceString,
+    unsafeRandomIdentifier
 }
