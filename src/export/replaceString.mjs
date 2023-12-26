@@ -1,5 +1,5 @@
-import arrayify from "./arrayify.fn.mjs"
-import isObject from "./isObject.fn.mjs"
+import arrayify from "./arrayify.mjs"
+import isObject from "./isObject.mjs"
 
 function replaceStringWithObject(str, obj) {
 	let search = [], replace = []

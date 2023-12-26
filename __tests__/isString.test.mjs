@@ -1,4 +1,4 @@
-import isString from "../src/isString.fn.mjs"
+import isString from "../src/export/isString.mjs"
 import assert from "assert"
 
 describe("isString", () => {

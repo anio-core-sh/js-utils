@@ -1,4 +1,4 @@
-import arrayify from "../src/arrayify.fn.mjs"
+import arrayify from "../src/export/arrayify.mjs"
 import assert from "assert"
 
 describe("arrayify", () => {

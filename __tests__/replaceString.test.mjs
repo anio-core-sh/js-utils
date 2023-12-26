@@ -1,4 +1,4 @@
-import replaceString from "../src/replaceString.fn.mjs"
+import replaceString from "../src/export/replaceString.mjs"
 import assert from "assert"
 
 describe("replaceString", () => {

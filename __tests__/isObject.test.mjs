@@ -1,4 +1,4 @@
-import isObject from "../src/isObject.fn.mjs"
+import isObject from "../src/export/isObject.mjs"
 import assert from "assert"
 
 describe("isObject", () => {

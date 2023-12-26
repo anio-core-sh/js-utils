@@ -1,4 +1,4 @@
-import unsafeRandomIdentifier from "../src/unsafeRandomIdentifier.fn.mjs"
+import unsafeRandomIdentifier from "../src/export/unsafeRandomIdentifier.mjs"
 import assert from "assert"
 
 describe("unsafeRandomIdentifier", () => {
