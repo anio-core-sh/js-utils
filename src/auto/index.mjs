@@ -1,4 +1,5 @@
-/* Warning: this file was automatically created by @anio-jsbundler/core v0.2.0 */
+/* Warning: this file was automatically created by anio-jsbundler v0.5.2 */
+/* You should commit this file to source control */
 
 import a from "./dict.mjs"
 import b from "./importWithContextAsync.mjs"

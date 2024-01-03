@@ -4,11 +4,12 @@
   "license": "MIT",
   "scripts": {
     "test": "mocha __tests__",
-    "prepare": "anio_jsbundler ."
+    "prepare": "anio-jsbundler ."
   },
-  "main": "./build/lib.mjs",
+  "main": "./build/library.mjs",
   "devDependencies": {
-    "@anio-jsbundler/bundler": "^0.2.4",
+    "@anio-jsbundler/project": "^0.2.0",
+    "anio-jsbundler": "^0.5.2",
     "mocha": "^10.2.0"
   }
 }
