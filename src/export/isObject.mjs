@@ -1,3 +1,3 @@
-export default function isObject(value) {
+export default function(value) {
 	return Object.prototype.toString.call(value).toLowerCase() === "[object object]"
 }

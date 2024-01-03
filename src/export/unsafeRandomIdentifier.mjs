@@ -1,4 +1,4 @@
-export default function unsafeRandomIdentifier(length) {
+export default function(length) {
 	let str = ``
 
 	for (let i = 0; i < length; ++i) {

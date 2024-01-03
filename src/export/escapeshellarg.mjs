@@ -1,4 +1,4 @@
-export default function escapeshellarg(arg) {
+export default function(arg) {
   //  discuss at: https://locutus.io/php/escapeshellarg/
   // Warning: this function emulates escapeshellarg() for php-running-on-linux
   // the function behaves differently when running on Windows, which is not covered by this code.

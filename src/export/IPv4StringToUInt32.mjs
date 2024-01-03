@@ -1,7 +1,7 @@
 /**
  * Converts IPv4 string format `a.b.c.d` into uint32.
  */
-export default function IPv4StringToUInt32(ip_str) {
+export default function(ip_str) {
 	const octets = ip_str.split(".")
 	let num = 0
 
