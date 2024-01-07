@@ -1,5 +1,5 @@
-/* Warning: this file was automatically created by anio-jsbundler v0.x.x */
-/* You will find more information about the specific anio-jsbundler version used inside the file src/auto/VERSION.txt */
+/* Warning: this file was automatically created by anio-gyp v0.x.x */
+/* You will find more information about the specific anio-gyp version used inside the file src/auto/VERSION.txt */
 /* You should commit this file to source control */
 
 import createNamedAnonymousFunction from "./createNamedAnonymousFunction.mjs"
