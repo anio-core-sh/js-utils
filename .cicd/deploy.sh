@@ -1,3 +1,3 @@
 #!/bin/bash -euf
 
-npm publish
+./node_modules/.bin/anio-gyp . -deploy

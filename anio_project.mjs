@@ -1,5 +1,9 @@
 export default {
 	type: "lib",
 
-	language: "js"
+	language: "js",
+
+	deployment: {
+		to: "npmjs.com"
+	}
 }
