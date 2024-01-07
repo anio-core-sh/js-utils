@@ -1,3 +1,5 @@
 export default {
-	type: "lib"
+	type: "lib",
+
+	language: "js"
 }
