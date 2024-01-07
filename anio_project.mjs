@@ -4,6 +4,10 @@ export default {
 	language: "js",
 
 	deployment: {
-		to: "npmjs.com"
+		to: "npmjs.com",
+
+		config: {
+			provenance: true
+		}
 	}
 }
