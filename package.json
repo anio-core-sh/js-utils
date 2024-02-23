@@ -9,7 +9,7 @@
   "main": "./build/library.mjs",
   "devDependencies": {
     "@anio-gyp/project": "^0.3.0",
-    "anio-gyp": "^0.9.0",
+    "anio-gyp": "^0.11.0",
     "mocha": "^10.2.0"
   },
   "repository": {
