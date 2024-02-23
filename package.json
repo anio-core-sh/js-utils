@@ -8,7 +8,7 @@
   },
   "main": "./build/library.mjs",
   "devDependencies": {
-    "@anio-gyp/project": "^0.3.0",
+    "@anio-gyp/project": "^0.3.2",
     "@anio-jtest/test": "^0.17.2",
     "anio-gyp": "^0.11.0"
   },
