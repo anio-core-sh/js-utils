@@ -1,14 +1,18 @@
+import {createTestSuite} from "@anio-jtest/test"
+const {test, describe, suite} = createTestSuite(import.meta.url)
+
 import arrayify from "../src/export/arrayify.mjs"
-import assert from "assert"
 
 describe("arrayify", () => {
-	it("should work as expected", () => {
-		assert.deepEqual(arrayify(1), [1])
-		assert.deepEqual(arrayify([1]), [1])
+	test("should work as expected", (expect) => {
+		expect(arrayify(1)).toEqual([1])
+		expect(arrayify([1])).toEqual([1])
 
-		assert.deepEqual(arrayify("a"), ["a"])
-		assert.deepEqual(arrayify(["a", "b"]), ["a", "b"])
+		expect(arrayify("a")).toEqual(["a"])
+		expect(arrayify(["a", "b"])).toEqual(["a", "b"])
 
-		assert.deepEqual(arrayify({a:1}), [{a:1}])
+		expect(arrayify({a:1})).toEqual([{a:1}])
 	})
 })
+
+export default suite

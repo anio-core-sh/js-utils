@@ -9,5 +9,9 @@ export default {
 		config: {
 			provenance: true
 		}
+	},
+
+	test: {
+		input: ["/__tests__/"]
 	}
 }

@@ -1,13 +1,17 @@
+import {createTestSuite} from "@anio-jtest/test"
+const {test, describe, suite} = createTestSuite(import.meta.url)
+
 import isString from "../src/export/isString.mjs"
-import assert from "assert"
 
 describe("isString", () => {
-	it("should work as expected", () => {
-		assert.equal(isString("Hello this is $name"), true)
-		assert.equal(isString(new String("Hello this is $name")), true)
-		assert.equal(isString(1), false)
-		assert.equal(isString(true), false)
-		assert.equal(isString(new Number()), false)
-		assert.equal(isString({a: 1}), false)
+	test("should work as expected", (expect) => {
+		expect(isString("Hello this is $name")).toBe(true)
+		expect(isString(new String("Hello this is $name"))).toBe(true)
+		expect(isString(1)).toBe(false)
+		expect(isString(true)).toBe(false)
+		expect(isString(new Number())).toBe(false)
+		expect(isString({a: 1})).toBe(false)
 	})
 })
+
+export default suite

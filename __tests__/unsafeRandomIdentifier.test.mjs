@@ -1,11 +1,16 @@
+import {createTestSuite} from "@anio-jtest/test"
+const {test, describe, suite} = createTestSuite(import.meta.url)
+
 import unsafeRandomIdentifier from "../src/export/unsafeRandomIdentifier.mjs"
-import assert from "assert"
 
 describe("unsafeRandomIdentifier", () => {
-	it("should work as expected", () => {
-		assert.equal(
-			unsafeRandomIdentifier(20).length,
+	test("should work as expected", (expect) => {
+		expect(
+			unsafeRandomIdentifier(20).length
+		).toBe(
 			20
 		)
 	})
 })
+
+export default suite
