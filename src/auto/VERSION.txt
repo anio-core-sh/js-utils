@@ -1,1 +1,1 @@
-Exact anio-gyp version used: 0.12.0
+Exact anio-gyp version used: 0.13.0
